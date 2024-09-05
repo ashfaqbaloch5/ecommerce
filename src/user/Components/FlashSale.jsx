@@ -26,7 +26,7 @@ const FlashSale = () => {
 
   // Countdown Timer Logic
   useEffect(() => {
-    const countdownDate = new Date("2024-08-31T23:59:59").getTime();
+    const countdownDate = new Date("2024-09-31T23:59:59").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
